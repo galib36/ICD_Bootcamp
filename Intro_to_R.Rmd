@@ -1,0 +1,52 @@
+---
+title: "Understanding transcriptional  dysregulation in Chronic Myelomonocytic"
+output:
+  html_notebook:
+    theme: united
+    toc: yes
+    toc_float:
+      collapsed: false
+      smooth_scroll: false
+editor_options: 
+  chunk_output_type: inline
+---
+# Intrdouction
+This is an introduction to R. I promise this will be fun. 
+
+## R console
+Writing code is fun. So open up R, and you’ll see something like this:
+![R console](R_Console.png)
+
+when loading R-Studio it will look like this
+![R-Studio](R-Studio.png)
+
+You can do math:
+```{r}
+1+1
+```
+
+Strings are always fun to start with, type a set of letters together within quotes and the console will print it back to you
+```{r}
+"Hello Mr Tickles"
+```
+```{r}
+"This is a string"
+```
+
+Double quotes and single quotes are more or less interchangable, but is better practice to stick with double quotes.
+
+# Variables
+
+Another thing you’ll want to do using R is assign things to a name so that you can use it later. Think of this as being if you were a chipmunk and you buried a nut in the ground to dig up later. You can assign anything in R to a __name__, then use it later (in the current R session of course :)).
+
+Assign the number 5 to the name `mynumber`
+```{r}
+mynumber <- 5
+```
+
+Later you can use `mynumber` , like adding it to another number 
+```{r}
+mynumber + 1
+```
+
+Sweet!
